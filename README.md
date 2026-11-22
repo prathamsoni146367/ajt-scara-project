@@ -84,7 +84,7 @@ project/
 
 ## Links
 
-- GitHub repository: https://github.com/IMPratham001/ajt-scara-project
+- GitHub repository: https://github.com/prathamsoni146367/ajt-scara-project
 - Deployed application (GitHub Pages static demo): https://impratham001.github.io/ajt-scara-project/
   - GitHub Pages serves static files only, so this demo shows all pages with the database content captured at build time; saving/editing/deleting data requires running the Java backend on Tomcat + MySQL as described above.
 
