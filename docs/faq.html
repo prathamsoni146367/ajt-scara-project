@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ | Scara</title>
+<meta name="description" content="Frequently asked questions about the fictional Scara agency.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body><div style="background:#b3121f;color:#fff;text-align:center;padding:6px 10px;font:600 13px Inter,sans-serif;position:relative;z-index:2000">Static demo on GitHub Pages &ndash; the full JSP/Servlet/MySQL application runs on Tomcat (see README).</div>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top" id="mainNav" aria-label="Primary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">
+      <i class="bi bi-crosshair2 brand-icon" aria-hidden="true"></i>
+      <span class="brand-accent">SCARA</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="assassins.html">Assassins</a></li>
+        <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="section-padded">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center reveal">
+          <p class="section-eyebrow">BEFORE YOU APPLY</p>
+          <h2 class="section-title">FAQ</h2>
+        </div>
+
+        <div class="accordion accordion-agency reveal" id="faqAccordion">
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                How are contracts assigned?
+              </button>
+            </h3>
+            <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Contracts are matched to operatives based on rank, specialization, and regional clearance. The Agency's handlers make the final call — no assassin selects their own targets.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                What is the success rate?
+              </button>
+            </h3>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Across all active operatives, the Agency maintains a 98% contract completion rate. Failures are reviewed internally and are, by policy, never discussed externally.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Who can apply?
+              </button>
+            </h3>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">Applicants must be 18 or older with demonstrable combat experience. Fictional universe of origin is not a barrier — the Agency recruits across realities.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Is this a real recruitment service?
+              </button>
+            </h3>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">No. Scara is a fictional, entertainment-only concept built to showcase UI and web design. No real contracts, weapons, or services are offered.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand d-inline-block mb-3" href="index.html">
+          SCA<span class="brand-accent">RA</span>
+        </a>
+        <p class="footer-text">A fictional, entertainment-only universe of elite contracts and legendary assassins. Not a real service.</p>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="assassins.html">Assassins</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h4>Agency</h4>
+        <ul class="footer-links">
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="admin.html">Admin</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h4>Newsletter</h4>
+        <p class="footer-text">Get notified when new contracts open. No spam, only silence.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" class="form-control" placeholder="Your email" required aria-label="Email for newsletter">
+          <button type="submit" class="btn btn-hero-primary">Join</button>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <p class="footer-copyright text-center mb-0">&copy; 2026 Scara. Fictional entertainment concept. All rights reserved. No actual assassins were harmed in the making of this site.</p>
+  </div>
+</footer>
+
+<div class="toast-container position-fixed bottom-0 end-0 p-4" style="z-index:1080">
+  <div id="appToast" class="toast toast-agency" role="status" aria-live="polite" aria-atomic="true">
+    <div class="toast-header">
+      <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+      <strong class="me-auto">Scara</strong>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Message received. The Agency will make contact if needed.</div>
+  </div>
+</div>
+
+<audio id="bgmAudio" src="audio/bgm.mp3" loop preload="auto"></audio>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/script.js"></script>
+<script>function demoNotice(){alert("GitHub Pages static demo: saving, editing and deleting need the Java (Tomcat + MySQL) backend. See the GitHub repository README to run the full application.");return false;}</script></body>
+</html>
